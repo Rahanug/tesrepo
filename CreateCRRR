@@ -1,0 +1,18 @@
+/*List L, W, Q, R, T, Lc, Lk;
+    address P, A, O, I, K, U, G, B;
+    infotype X, Z, M;
+    X = 2;
+    P = Alokasi(5);
+    A = Alokasi(10);
+    O = Alokasi(2);
+    I = Alokasi(3);
+    K = Alokasi(9);
+    U = Alokasi(21);
+    G = Alokasi(11);
+    B = Alokasi(12);
+    CreateList(&L); //List Pertama
+    CreateList(&W); //List Kedua
+    CreateList(&R); //List Pertama
+    CreateList(&T);
+    CreateList(&Lc);
+    CreateList(&Lk); */
