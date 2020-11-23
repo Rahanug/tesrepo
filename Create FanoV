@@ -1,0 +1,21 @@
+void InsertFirst (List * L, address P){
+/* I.S. Sembarang, P sudah dialokasi */
+/* F.S. Menambahkan elemen ber-address P sebagai elemen pertama */
+
+    //kamus lokal
+    address Q;
+
+    //algoritma
+    if (First(*L) == Nil){
+        next(P) = P;
+        First(*L) = P;
+    }else{
+        Q = First(*L);
+        while (next(Q)!= First(*L)){
+            Q = next(Q);
+        }
+        next(P) = First(*L);
+        First(*L) = P;
+        next(Q) = First(*L);
+    }
+}
